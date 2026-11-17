@@ -1,0 +1,17 @@
+{
+  "name": "legaltech-sms-suppression",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "tsx src/suppression.test.ts",
+    "demo": "tsx src/legal_sms_demo.ts"
+  },
+  "dependencies": {
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.7",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.2"
+  }
+}

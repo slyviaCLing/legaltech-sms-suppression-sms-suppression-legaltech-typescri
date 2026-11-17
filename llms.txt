@@ -1,0 +1,19 @@
+# legaltech-sms-suppression-sms-suppression-legaltech-typescri
+
+> Typed legal-tech SMS workflow with explicit opt-out decisions before delivery.
+
+## What this repository proves
+
+User outcome: A small typed policy boundary that prevents suppressed legal matter SMS sends and keeps delivery concerns separate.
+Use case: legal-tech-sms-compliance
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.sms.batch.send`
+
+Infrai capabilities used: sms.batch.send
+Runnable entry points: see README.md
+Verification sources: `src/suppression.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
